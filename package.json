@@ -1,5 +1,10 @@
 {
   "devDependencies": {
+    "@types/uuid": "^9.0.8",
+    "prettier": "3.3.2",
     "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "uuid": "^10.0.0"
   }
 }
