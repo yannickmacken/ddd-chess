@@ -1,6 +1,7 @@
 import { Piece, Rook } from "./classes/entities";
-import { Set_, File_, Rank, Square } from "./classes/value-objects";
+import { Set_, Square } from "./classes/value-objects";
 
+// This file represents the data layer.
 export let pieces: { alive: Piece[]; captured: Piece[] } = {
   alive: [
     new Rook(Set_.WHITE, new Square("1", "a"), "1"),
